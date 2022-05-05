@@ -1,0 +1,29 @@
+html {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+.no-click {
+    pointer-events: none;
+}
+
+.card-top{
+    object-fit: cover;
+    height: 350px;
+}
+
+.cropped-500{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.cropped-400{
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+
+a.card-link,
+a.card-link:hover{
+    color:inherit;
+}

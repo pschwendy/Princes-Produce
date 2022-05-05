@@ -1,0 +1,85 @@
+.navbar{
+    opacity: 1;
+}
+
+#categories{
+    width: auto;
+    position: absolute;
+    transform: translate(-50%, 0%);
+    text-align: center;
+    left: 50%;
+}
+
+.center-pills {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#book-button{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    justify-self: right;
+    
+}
+
+#more-button, #more-button:focus {
+    outline: none !important;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+.mar-neg10 {
+    margin-right: -5px;
+}
+.no-pad-right > button {
+    padding-right: 0 !important;
+}
+.no-pad, .no-pad > button {
+    padding: 8px 0 !important;
+}
+.category{
+    padding-left: 100px;
+}
+
+.specific-dropdown{
+    position: absolute;
+    width: 100vw;
+    size: unset;
+    align-items: center;
+    align-self: center;
+}
+
+.dark-nav {
+    /*background-color: #242124;*/
+    background-color: #242124;
+    color: white !important;
+    transition: all 0.25s ease-in;
+}
+
+@keyframes change-color {
+    from {background-color: transparent;}
+    to {background-color: black;}
+}
+
+.white-color {
+    color: white !important;
+}
+
+.transparent-nav {
+    background-color: transparent;
+    color: white !important;
+    transition: all 0.25s ease-in;
+}
+
+@keyframes reverse-color {
+    from {background-color: black;}
+    to {background-color: transparent;}
+}
+
+.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav .nav-link:focus {
+    color: #fff;
+}

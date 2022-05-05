@@ -1,0 +1,12 @@
+html {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+.food-overlay{
+    color: white;
+}
+
+.food-image{
+    filter: brightness(70%);
+    height: 400px;
+}

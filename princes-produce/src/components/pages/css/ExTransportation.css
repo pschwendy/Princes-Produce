@@ -1,0 +1,46 @@
+html {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+.overdiv{
+    background-image: linear-gradient(white, #CFF2FF);
+    overflow: auto;
+    position: relative;
+}
+.overdiv-2{
+    background-image: linear-gradient(white, #e5fbe5);
+    overflow: auto;
+    position: relative;
+}
+
+.article{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.heading{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.article-image{
+    object-fit: cover;
+    border-radius: 25px;
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.image-container{
+    background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+    .article-image {
+      max-height: 50vh;
+    } 
+
+    .article{
+        margin-top: 10px;
+        margin-bottom: 120px;
+    }
+  }
