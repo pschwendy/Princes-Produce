@@ -10,9 +10,9 @@ import hero from './assets/about.jpg';
 import { Container, Button, Row, Col } from 'react-bootstrap';
 
 import Peter from './assets/peter.jpg'
-import Max from './assets/max.jpg';
-import Jiayi from './assets/jiayi.jpg';
-import Dre from './assets/dre.jpg';
+import Jerry from './assets/jerry.JPG';
+import Alfredo from './assets/alfredo.jpg';
+import Varshini from './assets/varshini.PNG';
 
 function PersonSection(props) {
     return (
@@ -56,25 +56,25 @@ function About() {
                     <PersonSection
                         name="Peter Schwendeman"
                         src={Peter}
-                        role="Main Programmer"
+                        role=""
                         description=""
                     />
                     <PersonSection
-                        name="Maxwell Rosales"
-                        src={Max}
-                        role="Project Manager & Programmer"
+                        name="Jerry Yang"
+                        src={Jerry}
+                        role=""
                         description=""
                     />
                     <PersonSection
-                        name="Jiayi Hu"
-                        src={Jiayi}
-                        role="Content Manager"
+                        name="Alfredo Meza"
+                        src={Alfredo}
+                        role=""
                         description=""
                     />
                     <PersonSection
-                        name="Dre Hubers"
-                        src={Dre}
-                        role="Content Manager"
+                        name="Varshini Kashap"
+                        src={Varshini}
+                        role=""
                         description=""
                     />
                 </Row>

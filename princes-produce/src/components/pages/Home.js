@@ -161,7 +161,7 @@ function Home() {
                               <br></br>
                             </div>
                             }
-                          <Button id="browse" variant="success">BROWSE OUR PACKAGES</Button>
+                          <Button id="browse" href="#/produce-packages" variant="success">BROWSE OUR PACKAGES</Button>
                       </div>
                     </div>
                     <div class="col">
@@ -196,7 +196,7 @@ function Home() {
                             </div>
                             }
                             <div width='100%'>
-                              <Button id="browse" variant="success">BROWSE OUR KITS</Button>
+                              <Button id="browse" href="#/meal-kits" variant="success">BROWSE OUR KITS</Button>
                             </div>
                             
                         </div>

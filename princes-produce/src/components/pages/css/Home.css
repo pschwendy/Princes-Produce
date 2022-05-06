@@ -58,6 +58,8 @@ html {
   font-weight: 800;
   font-size: 1em;
   font-family: 'Inter';
+  display: grid;
+  align-items: center;
 }
 
 #underwhite {

@@ -49,36 +49,22 @@ function HNavBar() {
       <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
       <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav width='auto' className={centerPills > 992 ? 'mr-auto center-pills' : 'mr-auto'}>
-            <Nav.Link style={{fontSize: '20px'}} href='#/travel'>About</Nav.Link>
-            <Nav.Link style={{fontSize: '20px'}} href='#/travel'>Produce Packages</Nav.Link>
-            <Nav.Link style={{fontSize: '20px'}} href='#/travel'>Meal Kits</Nav.Link>
+            <Nav.Link style={{fontSize: '20px'}} href='#/about-us'>About</Nav.Link>
+            <Nav.Link style={{fontSize: '20px'}} href='#/produce-packages'>Produce Packages</Nav.Link>
+            <Nav.Link style={{fontSize: '20px'}} href='#/meal-kits'>Meal Kits</Nav.Link>
           </Nav>
           <Nav className='mr-auto'></Nav>
           {centerPills > 992 ? 
             <Nav width='auto'>
               <Button variant="success">Get Started!</Button>
-              <DropdownButton
-                menuAlign={"right"}
-                title={<FontAwesomeIcon size = '1x' icon={faPlus} />} 
-                id="more-button"
-                className={'no-pad-right'}>
-                  <NavDropdown.Item href="#/about-us">About Us</NavDropdown.Item>
-                  <NavDropdown.Item href="#/citations">Citations</NavDropdown.Item>
-              </DropdownButton>
             </Nav>
           :
           <div>
             <Nav width='auto'>
-            <NavDropdown
-              title={<span>More <FontAwesomeIcon size = '1x' icon={faPlus} /></span>} 
-              id="more-button"
-              >
-                <NavDropdown.Item href="#/about-us">About Us</NavDropdown.Item>
-                <NavDropdown.Item href="#/citations">Citations</NavDropdown.Item>
-            </NavDropdown>
+            
             </Nav>
-            <div className='no-pad' >
-              <Button variant="success">Get Started</Button>
+            <div className='' >
+              <Button variant="success">Get Started!</Button>
             </div>
           </div>
           }

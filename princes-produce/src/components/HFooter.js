@@ -36,18 +36,10 @@ function HFooter(){
                     <address className="page-list">
                         <a className='foot-a' href='#'>Home</a>
                         <br></br>
-                        <a className='foot-a' href='#/travel'>Travel</a>
+                        <a className='foot-a' href='#/produce-packages'>Produce Packages</a>
                         <br></br>
-                        <a className='foot-a' href='#/general-info'>General Info</a>
-                        <br></br><a className='foot-a' href='#/schedule'>Schedule</a>
-                        <br></br><a className='foot-a' href='#/hotels'>Hotels</a>
-                        <br></br>
-                        <a className='foot-a' href='#/explore-transportation'>Transportation</a>
-                        <br></br><a className='foot-a' href='#/explore-sightseeing'>Sightseeing</a>
-                        <br></br><a className='foot-a' href='#/explore-attractions'>Attractions</a>
-                        <br></br><a className='foot-a' href='#/explore-food'>Local Food</a>
+                        <a className='foot-a' href='#/meal-kits'>Meal Kits</a>
                         <br></br><a className='foot-a' href='#/about-us'>About Us</a>
-                        <br></br><a className='foot-a' href='#/citations'>Citations</a>
                     </address>                
                 </div>
             </div>
